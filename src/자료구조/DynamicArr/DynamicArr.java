@@ -1,12 +1,18 @@
 package 자료구조.DynamicArr;
 
-/* 자바의 ArrayList는 Dynamic Array의 역할을 함.
+/*  Dynamic Array
+    - 자바의 ArrayList는 Dynamic Array의 역할을 함.
+    - 조회 작업이 자주 일어날 때
+    - 데이터의 갯수를 알고 있을 때
+    - 데이터를 반복문을 통해 빠르게 순회할 때
+    - 일반적으로는 list보다 메모리를 적게 사용
 
     장점 : - 데이터 접근, 할당이 O(1)으로 빠름
           - 맨 뒤의 데이터 추가/삭제 O(1)으로 빠름
 
     단점 : - 특정 위치의 데이터 추가/삭제 O(N)으로 느림
           - resizing 일어날 때, memory 사용량이 늘어나고 느림(값 복사 : O(N))
+          - 메모리 낭비가 있음.
 
 
     시간복잡도 정리
