@@ -1,0 +1,12 @@
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+
+# Compiled files
+*.class
+*.jar
+*.war
+
+# Log files
+*.log
