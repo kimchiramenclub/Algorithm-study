@@ -1,6 +1,6 @@
 package 자료구조.LinkedList;
-import java.util.NoSuchElementException;
 
+import java.util.NoSuchElementException;
 
 /*  LinkedList
 
@@ -115,5 +115,9 @@ public class MyLinkedList<T> {
     public T get(int index) {
         Node<T> indexNode = getNode(index); // getNode 메서드를 사용해 해당 index의 Node access
         return indexNode.data;              // 해당 index Node의 데이터 return
+    }
+
+    public int size(){
+        return size;
     }
 }
